@@ -1,14 +1,14 @@
 locals {
   services = [
-    "run.googleapis.com",
     "artifactregistry.googleapis.com",
-    "secretmanager.googleapis.com",
+    "cloudresourcemanager.googleapis.com",
     "iam.googleapis.com",
     "iamcredentials.googleapis.com",
-    "sts.googleapis.com",
-    "cloudresourcemanager.googleapis.com",
-    "serviceusage.googleapis.com",
     "identitytoolkit.googleapis.com", # Firebase Auth / Identity Platform (used in M2)
+    "run.googleapis.com",
+    "secretmanager.googleapis.com",
+    "serviceusage.googleapis.com",
+    "sts.googleapis.com",
   ]
 }
 
