@@ -4,9 +4,9 @@
 # Consumed by the server starting in M2.
 locals {
   secret_ids = [
-    "db-url",              # Neon connection string
-    "token-signing-keys",  # hybrid Ed25519 + ML-DSA private keys (JSON)
-    "firebase-config",     # Firebase/Identity Platform config
+    "db-url",             # Neon connection string
+    "token-signing-keys", # hybrid Ed25519 + ML-DSA private keys (JSON)
+    "firebase-config",    # Firebase/Identity Platform config
   ]
 }
 
