@@ -1,0 +1,9 @@
+[package]
+name = "music-agent"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.75"
+
+# Real deps (lofty, tokio, axum, tower-http, rusqlite, ed25519 + ml-dsa) arrive
+# in M3. Kept empty so the workspace builds and CI is green now.
+[dependencies]

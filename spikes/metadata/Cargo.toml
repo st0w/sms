@@ -1,0 +1,10 @@
+[package]
+name = "m0_spike"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+lofty = "0.18"
+
+[profile.dev]
+debug = false
